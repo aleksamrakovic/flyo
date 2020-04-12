@@ -39,12 +39,11 @@ body {
   font-size: 14px;
   background-color: $mainBackground;
 
-//   background-image: url("../img/bg-curvy-desktop.svg");
+  //   background-image: url("../img/bg-curvy-desktop.svg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
-//   background-image: linear-gradient($introBackground, $mainBackground);
-
+  //   background-image: linear-gradient($introBackground, $mainBackground);
 }
 
 h2,
@@ -75,15 +74,14 @@ a.cta-btn {
   padding: 50px 0;
 
   .nav-item {
-
     .logo {
-        height: 30px;
+      height: 30px;
 
-        @media screen and (max-width: 768px) {
-            & {
-                height: 20px;
-            }
+      @media screen and (max-width: 768px) {
+        & {
+          height: 20px;
         }
+      }
     }
 
     a {
@@ -141,6 +139,7 @@ main {
     padding: 35px 0;
 
     .card-review {
+      border-radius: 5px;
       margin-bottom: 30px;
       padding: 30px 20px;
       background-color: $reviewBackground;
@@ -235,7 +234,6 @@ footer {
       margin-top: 20px;
       display: flex;
       justify-content: space-between;
-      
 
       input {
         background-color: #fff;
