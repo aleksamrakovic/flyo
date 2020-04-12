@@ -1,0 +1,19 @@
+{
+  "name": "flyo",
+  "version": "1.0.0",
+  "description": "Flyo Landing page, dark mode",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass main.scss main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksamrakovic/flyo.git"
+  },
+  "keywords": [],
+  "author": "Aleksa Mrakovic",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

@@ -1,0 +1,168 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  background-image: url("img/bg-curvy-desktop.svg");
+  background-color: #181f2a;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+h2,
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  line-height: 1.4; }
+
+a {
+  color: #65e2d9; }
+
+a.cta-btn {
+  display: inline-block;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  background-color: #65e2d9;
+  border-radius: 100px;
+  text-decoration: none;
+  background: linear-gradient(to right, #65e2d9, #339ecc); }
+
+.nav {
+  padding: 50px 0; }
+  .nav .nav-item .logo {
+    height: 30px; }
+    @media screen and (max-width: 768px) {
+      .nav .nav-item .logo {
+        height: 20px; } }
+  .nav .nav-item a {
+    color: #fff !important; }
+
+main .first-part {
+  text-align: center;
+  margin-bottom: 150px; }
+  main .first-part .img-holder img {
+    max-width: 100%; }
+  main .first-part .text {
+    margin-bottom: 20px; }
+
+main .card-box {
+  margin-bottom: 70px;
+  text-align: center; }
+  main .card-box .img-holder {
+    height: 100px;
+    margin-bottom: 10px; }
+
+main .second-part {
+  text-align: left;
+  margin: 100px 0; }
+  main .second-part .img-holder img {
+    max-width: 100%; }
+  main .second-part .text {
+    margin-bottom: 20px; }
+
+main .review-part {
+  background-image: url("img/bg-quotes.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding: 35px 0; }
+  main .review-part .card-review {
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    background-color: #202a3c; }
+    main .review-part .card-review .account {
+      display: flex; }
+      main .review-part .card-review .account .img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%; }
+        main .review-part .card-review .account .img img {
+          max-width: 100%;
+          border-radius: 50%; }
+      main .review-part .card-review .account .name {
+        margin-left: 20px; }
+        main .review-part .card-review .account .name span {
+          letter-spacing: 1px;
+          display: block;
+          font-size: 12px;
+          font-weight: bold; }
+          main .review-part .card-review .account .name span:last-child {
+            font-size: 10px;
+            font-weight: normal; }
+
+footer {
+  background-color: #0b1523;
+  padding-top: 200px; }
+  footer .links ul {
+    list-style-type: none; }
+    footer .links ul li {
+      margin-bottom: 10px;
+      text-transform: capitalize; }
+  footer .social ul {
+    list-style-type: none;
+    display: flex; }
+    footer .social ul li {
+      border: 1px solid #fff;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      footer .social ul li:not(:last-child) {
+        margin-right: 10px; }
+    @media screen and (max-width: 768px) {
+      footer .social ul {
+        justify-content: center; } }
+
+.subscribe {
+  width: 50%;
+  margin: 0 auto;
+  transform: translateY(50%); }
+  .subscribe .box {
+    text-align: center;
+    border-radius: 12px;
+    padding: 40px 50px;
+    background-color: #1c2431; }
+    .subscribe .box .input-box {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between; }
+      .subscribe .box .input-box input {
+        background-color: #fff;
+        border-radius: 100px;
+        border: none;
+        width: 60%;
+        padding-left: 30px;
+        height: 50px; }
+      .subscribe .box .input-box a {
+        width: 35%;
+        height: 50px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+      @media screen and (max-width: 992px) {
+        .subscribe .box .input-box {
+          flex-direction: column; }
+          .subscribe .box .input-box input {
+            width: 100%; }
+          .subscribe .box .input-box a {
+            width: 100%; } }
+  @media screen and (max-width: 992px) {
+    .subscribe {
+      width: 95%; } }
